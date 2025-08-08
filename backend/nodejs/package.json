@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-nodejs-server",
+  "version": "1.0.0",
+  "description": "Servidor Node.js puro para conectividade WhatsApp com integração Python",
+  "main": "whatsapp_server.js",
+  "scripts": {
+    "start": "node whatsapp_server.js",
+    "dev": "nodemon whatsapp_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.32.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "wppconnect",
+    "nodejs",
+    "server",
+    "connectivity"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT"
+}

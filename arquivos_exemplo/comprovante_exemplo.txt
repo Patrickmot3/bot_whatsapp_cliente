@@ -1,0 +1,6 @@
+COMPROVANTE DE PAGAMENTO
+========================
+Data: 07/08/2024
+Valor: R$ 125,00
+Estabelecimento: Restaurante ABC
+Tipo: Alimentação

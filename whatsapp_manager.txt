@@ -1,0 +1,1 @@
+def __init__(self, pasta_raiz: str = "arquivos_clientes"):

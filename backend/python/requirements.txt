@@ -1,0 +1,16 @@
+# Dependências principais
+Flask==3.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Dependências opcionais para funcionalidades avançadas
+Pillow>=10.0.0  # Para processamento de imagens
+mutagen>=1.47.0  # Para metadados de áudio
+python-magic>=0.4.27  # Para detecção de tipos de arquivo
+schedule>=1.2.0  # Para tarefas agendadas
+psutil>=5.9.0  # Para monitoramento do sistema
+
+# Dependências de desenvolvimento
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0

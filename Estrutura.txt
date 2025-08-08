@@ -1,0 +1,37 @@
+bot_whatsapp_cliente/                    ← Pasta principal do projeto
+├── 📁 backend/                          ← Sistemas backend
+│   ├── 📁 python/                       ← Sistema Python
+│   │   ├── whatsapp_manager.py
+│   │   ├── whatsapp_api_integration.py
+│   │   ├── config.py
+│   │   ├── backup_sistema.py
+│   │   ├── monitor_sistema.py
+│   │   ├── exemplo_integracao.py
+│   │   ├── requirements.txt
+│   │   └── .env
+│   │
+│   └── 📁 nodejs/                       ← Sistema Node.js
+│       ├── whatsapp_server.js
+│       ├── package.json
+│       ├── package-lock.json
+│       └── node_modules/
+│
+├── 📁 data/                             ← Dados compartilhados
+│   ├── whatsapp_dados.db               ← Banco Python
+│   ├── cadastro.db                     ← Banco Node.js
+│   └── static/
+│       └── status.json
+│
+├── 📁 storage/                          ← Arquivos e backups
+│   ├── arquivos_clientes/              ← Arquivos dos clientes
+│   ├── backups/                        ← Backups automáticos
+│   ├── logs/                           ← Logs do sistema
+│   └── temp/                           ← Arquivos temporários
+│
+├── 📁 puppeteer/                        ← Chrome/Puppeteer (se houver)
+│   └── chrome/
+│
+├── .venv/                               ← Ambiente virtual Python
+├── README.md                            ← Documentação
+├── .gitignore                          ← Git ignore
+└── docker-compose.yml                  ← Para container (opcional)
